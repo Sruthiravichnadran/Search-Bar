@@ -36,5 +36,5 @@ searchInput.addEventListener("input", function() {
     return result.title.toLowerCase().includes(searchText);
   });
   
-  displayResults(filteredResults)
+  displayResults(filteredResults);
 });
